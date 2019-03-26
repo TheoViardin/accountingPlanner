@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="miar.com.miar_project_client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+
+                <category android:name="android.intent.category.APP_LOGIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ListSpentsActivity"
+            android:label="@string/title_activity_list_spents"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.ListUserActivity"
+            android:label="@string/title_activity_list_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SpentDetails"
+            android:label="@string/title_activity_spent_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.DetailEventActivity"
+            android:label="@string/title_activity_detail_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.CreateEventActivity"
+            android:label="@string/title_activity_create_event"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.AddMemberEventActivity"
+            android:label="@string/title_activity_add_member_event"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.FindMember"
+            android:label="@string/title_activity_add_find_event"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.AddDepenseActivity"
+            android:label="@string/title_activity_add_depense"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ModifyUserActivity"
+            android:label="ModifyUserActivity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
