@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="login or account" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_cake_black_24dp"
+            android:title="read events" />
+
+        <item
+            android:id="@+id/nav_add_event"
+            android:icon="@drawable/ic_cake_black_24dp"
+            android:title="add event" />
+
+        <item
+            android:id="@+id/nav_"
+            android:icon="@drawable/ic_cake_black_24dp"
+            android:title="add event" />
+    </group>
+
+
+</menu>

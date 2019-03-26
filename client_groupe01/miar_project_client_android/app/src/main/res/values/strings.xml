@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Event Balance App</string>
+    <string name="login_title">Authentification</string>
+    <string name="login_placeholder">User name</string>
+    <string name="password_title">Password</string>
+    <string name="password_placeholder">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_link_button">Or Register New Account</string>
+    <string name="event_page_name">Events</string>
+    <string name="register_title">Registration</string>
+    <string name="pseudo_title">Pseudo</string>
+    <string name="email_title">Email</string>
+    <string name="pseudo_placeholder">Choose your pseudo name</string>
+    <string name="email_placeholder">E-mail</string>
+    <string name="register_button">Register</string>
+    <string name="register">Register</string>
+    <string name="auth_banner_desc">auth banner</string>
+    <string name="back_arrow"><![CDATA[<]]></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail_event">DetailEvent</string>
+
+    <!-- TODO: String for content_detail_event -->
+    <string name="title_sous_total">
+       <u>Sous total :</u>
+    </string>
+    <string name="title_activity_spent_details">Listes des dépenses</string>
+    <string name="title_activity_create_event">CreateEventActivity</string>
+
+    <!-- TODO: String for Create Activity -->
+    <string name="title_activity_add_member_event">AddMember</string>
+    <string name="title_activity_add_find_event">FindMember</string>
+    <string name="title_activity_choose_date">ChooseDate</string>
+    <string name="title_activity_choose_adress">ChooseLocation</string>
+    <string name="title_activity_add_depense">AddDepense</string>
+    <color name="grey">#696969</color>
+    <string name="title_activity_list_user">Liste des membres</string>
+    <string name="title_activity_list_spents">Listes des dépenses</string>
+	<string name="new_event_title">Titre</string>
+	<string name="new_event_description">Description</string>
+	<string name="new_event_description_helper">Entrez une description</string>
+	<string name="contributors">Participants</string>
+	<string name="new_event_select_location">Sélectionner le lieu</string>
+	<string name="new_event_select_date">Sélectionner la date</string>
+	<string name="validate">Valider</string>
+	<string name="cancel">Annuler</string>
+	<string name="expenses">Dépenses</string>
+</resources>
